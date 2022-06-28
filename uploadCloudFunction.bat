@@ -1,0 +1,1 @@
+"D:\Program Files (x86)\Tencent\微信web开发者工具\cli.bat" cloud functions deploy --e lianxin-7geafmyzf228d571 --n quickstartFunctions --r --project "D:\Users\Tedu\Desktop\lianxinyun" --report_first --report

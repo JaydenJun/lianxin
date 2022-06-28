@@ -1,0 +1,24 @@
+<!--pages/citylist/citylist.wxml-->
+<view class="city-list-container">
+  <view class="city-title">定位城市</view>
+  <view class="city-inline">
+    <text bindtap="taploccity" class="location-city">{{cityname}}</text>
+  </view>
+  <view class="city-list">
+    <view class="city-left">
+      <scroll-view scroll-into-view="{{letter}}" scroll-y="true" style="height:100vh" scroll-with-animation="true" enable-back-to-top="true">
+        <view class="city-group-item" wx:for="{{map}}">
+          <view class="city-group-title" id="{{index}}">{{index}}</view>
+          <view class=" city-fullname" wx:for="{{item}}" wx:key="index" wx:for-index="i" wx:for-item="c">
+            <text bindtap="tapcity" data-c="{{c.fullName}}">{{c.fullName}}</text>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+    <view class="city-right">
+      <view class="py-item" wx:for="{{map}}">
+        <text bindtap="tapletter" data-l="{{index}}">{{index}}</text>
+      </view>
+    </view>
+  </view>
+</view>

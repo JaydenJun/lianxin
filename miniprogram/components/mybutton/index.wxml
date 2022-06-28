@@ -1,0 +1,4 @@
+<!--components/mybutton/index.wxml-->
+<view class="mybtn" bindtap="tapEvent" style="border-radius: {{round?'10000px':'0px'}}; background-color:{{color}}">
+  {{title}}
+</view>

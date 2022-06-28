@@ -1,0 +1,10 @@
+<view class="cover">
+  <van-image round width="180rpx" height="180rpx" fit="cover" src="https://img.yzcdn.cn/vant/cat.jpeg" />
+<view>溫柔的亮亮</view>
+</view>
+<van-grid>
+  <van-grid-item icon="passed" text="立即签到" dot />
+  <van-grid-item icon="gift-o" text="我的福利" badge="99+"/>
+  <van-grid-item icon="clock-o" text="观看历史" />
+  <van-grid-item icon="shop-o" text="积分商城" />
+</van-grid>

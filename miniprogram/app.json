@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/citylist/citylist",
+    "pages/movie/movie",
+    "pages/theatre/theatre",
+    "pages/me/me"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "需要获取你的位置权限"
+    }
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#f03d37",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "电影",
+      "iconPath": "/images/index_disable.png",
+      "selectedIconPath": "/images/index_enable.png"
+    }, {
+      "pagePath": "pages/theatre/theatre",
+      "text": "影院",
+      "iconPath": "/images/theatre_disable.png",
+      "selectedIconPath": "/images/theatre_enable.png"
+    }, {
+      "pagePath": "pages/me/me",
+      "text": "我的",
+      "iconPath": "/images/me_disable.png",
+      "selectedIconPath": "/images/me_enable.png"
+    }]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f03d37",
+    "navigationBarTitleText": "恋鑫影院",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
